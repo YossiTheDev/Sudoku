@@ -1,0 +1,62 @@
+/* Making the page site responsive */
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling the main page */
+
+.sudoku{
+    text-align: center;
+    background-color: #ebeff5;
+    border: 2px solid red;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    margin: 5%;
+}
+
+
+/* Styling the sentence "Sudoku Game" */
+
+span{
+    letter-spacing: 1.5px;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 60px;
+    background: linear-gradient(to right, black, #1a0d00,  #4d2600,  #804000,  #b35900, 
+    #e67300,  #ff8c1a,  #ffa64d,  #ffbf80,  #ffd9b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Styling the input rows */
+
+.input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+/* Styling the button */
+
+.btn{
+    background-color: white;
+    color: black;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+	
+}
+
+
+/* Styling the buttons when mouse hovering */
+
+a :hover{
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+}
